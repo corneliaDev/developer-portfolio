@@ -68,18 +68,18 @@ export default function Datenschutz() {
             <p className="text-body mb-4">
               Verantwortlich für die Datenverarbeitung:
               <br />
-              Cornelia Müller
+              CorneliaDev
               <br />
-              Hans-Zeitler-Straße 2b
+              XXX
               <br />
-              83075 Bad Feilnbach
+              XXX
               <br />
               E-Mail:{" "}
               <a
                 href="mailto:cornelia.mueller@example.com"
                 className="underline text-primary ml-1"
               >
-                cmueller.mail@t-online.com
+                corneliaDev@dev.xx
               </a>
             </p>
           </section>
