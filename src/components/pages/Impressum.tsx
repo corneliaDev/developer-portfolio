@@ -16,11 +16,11 @@ export default function Impressum() {
 
             <h2 className="text-heading-lg mb-4">Angaben gemäß § 5 TMG</h2>
             <p className="text-body mb-4">
-              Cornelia Müller
+              Cornelia Dev
               <br />
-              Hans-Zeitler-Straße 2b
+              XXX
               <br />
-              83075 Bad Feilnbach
+              XXX
               <br />
               Deutschland
             </p>
@@ -32,7 +32,7 @@ export default function Impressum() {
                 href="mailto:cornelia.mueller@example.com"
                 className="underline text-primary ml-1"
               >
-                cmueller.mail@t-online.de{" "}
+                corneliaDev@dev.xx{" "}
               </a>
             </p>
 
@@ -47,11 +47,11 @@ export default function Impressum() {
               Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
             </h3>
             <p className="text-body mb-4">
-              Cornelia Müller
+              CorneliaDev
               <br />
-              Hans-Zeitler-Straße 2b
+              XXX
               <br />
-              83075 Bad Feilnbach
+              XXX
               <br />
               Deutschland
             </p>

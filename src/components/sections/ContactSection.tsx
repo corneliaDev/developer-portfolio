@@ -15,7 +15,7 @@ export default function ContactSection() {
             href="mailto:your.email@example.com"
             className="underline text-primary ml-1"
           >
-            cmueller.mail@t-online.com
+            corneliaDev@dev.xx
           </a>
           .
         </p>
