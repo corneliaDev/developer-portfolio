@@ -31,15 +31,15 @@ export default function Home() {
         declineButtonText="Ablehnen"
         enableDeclineButton
         cookieName="siteCookieConsent"
-        style={{ background: "#0BBDEA" }}
-        buttonStyle={{ color: "#151515", fontSize: "14px" }}
+        style={{ background: "#2B373B" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "14px" }}
         declineButtonStyle={{ fontSize: "14px" }}
         expires={150}
       >
         Diese Website verwendet Cookies, um die Benutzerfreundlichkeit zu
         verbessern.{" "}
-        <Link to="/datenschutz" className="text-small">
-          Datenschutz
+        <Link to="/datenschutz" className="text-small underline">
+          Mehr erfahren
         </Link>
       </CookieConsent>
     </div>
