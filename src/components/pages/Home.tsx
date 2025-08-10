@@ -38,8 +38,8 @@ export default function Home() {
       >
         Diese Website verwendet Cookies, um die Benutzerfreundlichkeit zu
         verbessern.{" "}
-        <Link to="/datenschutz" className="text-small underline">
-          Mehr erfahren
+        <Link to="/datenschutz" className="text-small text-white pl-1">
+          Datenschutz
         </Link>
       </CookieConsent>
     </div>
