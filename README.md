@@ -23,6 +23,7 @@ You should be able to:
 - Receive an error message when the `form` is submitted if:
   - Email or Name field is empty
   - The email address is not formatted correctly
+  - DB error
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 - **Bonus**: Hook the form up so it sends and stores the user's enquiry (you can use a spreadsheet or Airtable to save the enquiries)

@@ -1,57 +1,36 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class", // or 'media' for OS preference
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      tablet: "48.01rem", // 768px = md = min width
-      desktop: "90.01rem", // 1440px
+      tablet: "48rem", // 768px = md = min width
+      desktop: "90rem", // 1440px
     },
-    fontFamily: {
-      spaceGrotesk: ["Space Grotesk", "san-serif"],
+    extend: {
+      fontFamily: {
+        space: ['"Space Grotesk"', "sans-serif"],
+      },
     },
     fontSize: {
-      h1: [
-        "5.5rem",
+      "heading-xl": [
+        "clamp(2.5rem, 6vw, 5.5rem)", // ~40px to 88px
         {
           lineHeight: 1,
           letterSpacing: "-0.15625rem",
           fontWeight: "700",
         },
       ],
-      h1Tablet: [
-        "4.5rem",
-        {
-          lineHeight: 1,
-          letterSpacing: "-0.128125rem",
-          fontWeight: "700",
-        },
-      ],
-      h1Mobile: [
-        "2.5rem",
-        {
-          lineHeight: 1,
-          letterSpacing: "-0.07125rem",
-          fontWeight: "700",
-        },
-      ],
-      h2: [
-        "3rem",
+      "heading-lg": [
+        "clamp(1.8rem, 4vw, 2.5rem)", // ~28.8px to 40px
         {
           lineHeight: "3.5rem",
           letterSpacing: "-0.09375rem",
           fontWeight: "700",
         },
       ],
-      h2Mobile: [
-        "2rem",
-        {
-          lineHeight: "2.5rem",
-          letterSpacing: "-0.0625rem",
-          fontWeight: "700",
-        },
-      ],
-      h3: [
-        "1.5rem",
+      "heading-md": [
+        "clamp(1.25rem, 2.5vw, 1.5rem)", // ~20px to 24px
         {
           lineHeight: "2rem",
           letterSpacing: "-0.018125rem",
@@ -59,46 +38,30 @@ export default {
         },
       ],
       body: [
-        "1.125rem",
+        "clamp(1rem, 1.5vw, 1.125rem)", // ~16px to 18px
         {
           lineHeight: "1.75rem",
           fontWeight: "400",
         },
       ],
-      bodyMobil: [
-        "1rem",
-        {
-          lineHeight: "1.625rem",
-          fontWeight: "400",
-        },
-      ],
       small: [
-        "1rem",
+        "clamp(0.875rem, 1.2vw, 1rem)", // ~14px to 16px
         {
           lineHeight: "1.625rem",
           letterSpacing: "0.143125rem",
           fontWeight: "500",
         },
       ],
-      logoName: [
-        "2rem",
+      "logo-name": [
+        "clamp(1.5rem, 3vw, 2rem)", // ~24px to 32px
         {
           lineHeight: 1,
           letterSpacing: "-0.0275rem",
           fontWeight: "700",
         },
       ],
-      logoNameMobil: [
-        "1.5rem",
-        {
-          lineHeight: "2rem",
-          letterSpacing: "-0.020625rem",
-          fontWeight: "700",
-        },
-      ],
-
-      contactForm: [
-        "1rem",
+      "contact-form": [
+        "clamp(0.95rem, 1.2vw, 1rem)", // ~15.2px to 16px
         {
           lineHeight: "1.625rem",
           letterSpacing: "-0.01375rem",
@@ -108,12 +71,20 @@ export default {
     },
     extend: {
       colors: {
-        primBlack: "#151515",
-        primDGreen: "#0891b2",
-        darkGray: "#242424",
-        lightGray: "#D9D9D9",
-        textLightWhite: "#FFFFFF",
-        errRed: "#FF6F5B",
+        black: "#151515",
+        primary: "#0BBDEA", // 0891b2
+        dark: "#242424",
+        light: "#D9D9D9",
+        error: "#FF5252", //FF6F5B
+      },
+      spacing: {
+        18: "4.5rem",
+        22: "5.5rem",
+        26: "6.5rem",
+        35: "8.75rem", // from desktop:mt-[8.75rem]
+        39: "2.4375rem", // name it meaningfully if reused
+        66: "16.5rem", // e.g. desktop:bottom-[16.5rem]
+        72: "18rem",
       },
     },
   },

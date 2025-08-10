@@ -4,6 +4,7 @@ export const experienceList = [
     language: "HTML",
     experience: "2 Years Experience",
   },
+
   {
     id: 2,
     language: "CSS",
@@ -34,7 +35,9 @@ export const experienceList = [
 export const projectsList = [
   {
     id: 1,
-    image: "thumbnail-project-todo-webapp.webp",
+    image: "todo_app.webp",
+    image_mobile: "todo_app_mobile.webp",
+    alt: "ToDo Web App Screenshot",
     title: "ToDo Web App",
     languages: "React, HTML, Tailwind, TypeScript",
     linkProject: "https://todo-app-cornelia.netlify.app/",
@@ -42,7 +45,9 @@ export const projectsList = [
   },
   {
     id: 2,
-    image: "thumbnail-project-url-shortener.jpg",
+    image: "url_shortening_api.webp",
+    image_mobile: "url_shortening_api_mobile.webp",
+    alt: "URL Shortening API Screenshot",
     title: "URL shortening API",
     languages: "React, HTML, CSS, JavaScript",
     linkProject: "https://url-shortener-cornelia.netlify.app/",
@@ -50,7 +55,9 @@ export const projectsList = [
   },
   {
     id: 3,
-    image: "thumbnail-project-interactive-card.jpg",
+    image: "interactive_card_details_form.webp",
+    image_mobile: "interactive_card_details_form_mobile.webp",
+    alt: "Interactive Card Form Screenshot",
     title: "Interactive Card Form",
     languages: "HTML, CSS, JavaScript",
     linkProject: "https://interactive-card-cornelia.netlify.app/",
@@ -58,7 +65,9 @@ export const projectsList = [
   },
   {
     id: 4,
-    image: "thumbnail-project-ip-address-checker.jpg",
+    image: "ip_address_tracker.webp",
+    image_mobile: "ip_address_tracker_mobile.webp",
+    alt: "IP Address Checker App Screenshot",
     title: "IP Address Checker APP",
     languages: "HTML, SCSS, JavaScript, MVC, BEM",
     linkProject: "https://ip-address-tracker-cornelia.netlify.app/",
@@ -66,7 +75,9 @@ export const projectsList = [
   },
   {
     id: 5,
-    image: "thumbnail-project-advice-generator-app.jpg",
+    image: "advice_generator_app.webp",
+    image_mobile: "advice_generator_app_mobile.webp",
+    alt: "Advice Generator App Screenshot",
     title: "Advice Generator App",
     languages: "HTML, SCSS, JavaScript, MVC, BEM",
     linkProject: "https://advice-generator-app-cornelia.netlify.app/",
@@ -74,7 +85,9 @@ export const projectsList = [
   },
   {
     id: 6,
-    image: "thumbnail-project-faq-accordeon-card.jpg",
+    image: "faq_accordeon_card.webp",
+    image_mobile: "faq_accordeon_card_mobile.webp",
+    alt: "FAQ Accordeon Card Screenshot",
     title: "FAQ Accordeon Card",
     languages: "HTML, CSS, JavaScript, BEM",
     linkProject: "https://faq-accordion-card-cornelia.netlify.app/",
@@ -82,7 +95,9 @@ export const projectsList = [
   },
   {
     id: 7,
-    image: "thumbnail-project-rating-component.jpg",
+    image: "interactive_rating_component.webp",
+    image_mobile: "interactive_rating_component_mobile.webp",
+    alt: "Rating Component Screenshot",
     title: "Rating Component",
     languages: "HTML, CSS, JavaScript",
     linkProject: "https://rating-component-cornelia.netlify.app/",
@@ -90,7 +105,9 @@ export const projectsList = [
   },
   {
     id: 8,
-    image: "thumbnail-project-QR-code.jpg",
+    image: "qr_code_component.webp",
+    image_mobile: "qr_code_component_mobile.webp",
+    alt: "QR Code Component Screenshot",
     title: "QR Code",
     languages: "HTML, CSS",
     linkProject: "https://qr-code-cornelia.netlify.app/",
@@ -122,13 +139,5 @@ export const socialMediaIcons = [
     height: 24,
     path: "M5.551 3.304c-1.14 0-2.067.926-2.067 2.064 0 1.14.928 2.066 2.067 2.066a2.066 2.066 0 0 0 0-4.13ZM3.767 8.998v11.453h3.562L7.33 8.998H3.767Zm5.798 0V20.45l3.554.002.002-5.668c0-1.454.253-2.941 2.132-2.941 1.851 0 1.851 1.755 1.851 3.036v5.571l3.559-.001v-6.28c0-2.834-.517-5.457-4.27-5.457-1.763 0-2.916.997-3.368 1.85h-.05V8.997h-3.41ZM22.435 24H1.982c-.976 0-1.77-.777-1.77-1.732V1.731C.212.776 1.006 0 1.982 0h20.453c.98 0 1.777.776 1.777 1.73v20.538c0 .955-.797 1.732-1.777 1.732Z",
     url: "https://de.linkedin.com/",
-  },
-  {
-    id: 4,
-    name: "Xing",
-    width: 24,
-    height: 24,
-    path: "M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-14.085 15l2.744-4.825-1.846-3.162h3.292l1.83 3.152-2.744 4.835h-3.276zm8.79-1.445l3.514 6.445h-3.252l-3.55-6.445 5.38-9.555h3.289l-5.381 9.555z",
-    url: "https://www.xing.com/",
   },
 ];

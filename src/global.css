@@ -3,6 +3,22 @@
 @tailwind utilities;
 @layer base {
   :root {
-    --radius: 0.5rem
+    --radius: 0.5rem;
   }
+
+  @font-face {
+    font-family: "Space Grotesk";
+    src: url("/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 400 500 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  body {
+    @apply bg-white dark:bg-black text-dark dark:text-white font-sans;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
 }

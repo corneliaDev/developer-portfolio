@@ -28,5 +28,10 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "archive/HeroSection_v0.tsx",
+    "archive/ContactForm_v0.tsx",
+    "archive/Link_v0.tsx"
+  ]
 }
