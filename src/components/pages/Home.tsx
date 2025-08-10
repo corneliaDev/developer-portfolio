@@ -9,6 +9,7 @@ import ExperienceSection from "../sections/ExperienceSection";
 
 import ProjectSection from "../sections/ProjectSection";
 import Header from "../layout/Header";
+import Link from "../ui/Link";
 
 export default function Home() {
   return (
@@ -30,19 +31,16 @@ export default function Home() {
         declineButtonText="Ablehnen"
         enableDeclineButton
         cookieName="siteCookieConsent"
-        style={{ background: "#2B373B" }}
-        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
-        declineButtonStyle={{ fontSize: "13px" }}
+        style={{ background: "#0BBDEA" }}
+        buttonStyle={{ color: "#151515", fontSize: "14px" }}
+        declineButtonStyle={{ fontSize: "14px" }}
         expires={150}
       >
         Diese Website verwendet Cookies, um die Benutzerfreundlichkeit zu
         verbessern.{" "}
-        <a
-          href="/datenschutz"
-          style={{ color: "#ffffff", textDecoration: "underline" }}
-        >
-          Mehr erfahren
-        </a>
+        <Link to="/datenschutz" className="text-small">
+          Datenschutz
+        </Link>
       </CookieConsent>
     </div>
   );
