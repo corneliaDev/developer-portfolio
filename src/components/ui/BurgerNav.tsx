@@ -37,13 +37,13 @@ export default function BurgerNav() {
               </Link>
             </li>
             <li>
-              <Link to="/#aboutMe" onClick={toggleMenu}>
-                About me
+              <Link to="/#experience" onClick={toggleMenu}>
+                Experience
               </Link>
             </li>
             <li>
-              <Link to="/#experience" onClick={toggleMenu}>
-                Experience
+              <Link to="/#aboutMe" onClick={toggleMenu}>
+                About me
               </Link>
             </li>
             <li>
